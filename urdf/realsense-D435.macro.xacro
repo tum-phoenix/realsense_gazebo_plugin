@@ -57,7 +57,7 @@
                 <format>RGB_INT8</format>
             </image>
             <clip>
-                <near>0.1</near>
+                <near>0.01</near>
                 <far>100</far>
             </clip>
             <noise>
@@ -80,7 +80,7 @@
                 <format>L_INT8</format>
             </image>
             <clip>
-                <near>0.1</near>
+                <near>0.01</near>
                 <far>100</far>
             </clip>
             <noise>
@@ -103,7 +103,7 @@
                 <format>L_INT8</format>
             </image>
             <clip>
-                <near>0.1</near>
+                <near>0.01</near>
                 <far>100</far>
             </clip>
             <noise>
@@ -125,7 +125,7 @@
                     <height>800</height>
             </image>
             <clip>
-                    <near>0.1</near>
+                    <near>0.01</near>
                     <far>100</far>
             </clip>
             <noise>
