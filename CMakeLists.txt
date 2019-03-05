@@ -23,6 +23,10 @@ catkin_package(
         gazebo_ros
 )
 
+if("${GAZEBO_VERSION}" VERSION_LESS "8.0")
+    add_definitions(-DGAZEBO_VERSION_OLDER_8)
+endif()
+
 include_directories(
     include
     ${catkin_INCLUDE_DIRS}
