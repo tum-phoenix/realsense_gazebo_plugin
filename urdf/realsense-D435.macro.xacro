@@ -9,9 +9,9 @@
             * Virtual depth coordinate frame
         Configured to work with Gazebo if desired.
 -->
-<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 <xacro:macro name="realsense-d435" params="prefix parent *origin">
-    <xacro:include filename="$(find realsense2_camera)/urdf/_d435.urdf.xacro"/>
+    <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro"/>
     <xacro:property name="d435_horizontal_fov" value="${91.2*PI/180}"/>
     <!-- approximate at the resolution-->
     <xacro:property name="d435_depth_fps" value="30"/>
