@@ -15,7 +15,7 @@
   <run_depend>roscpp</run_depend>
   <run_depend>realsense2_camera</run_depend>
   <run_depend>depth_image_proc</run_depend>
-
+  <run_depend>realsense2_description</run_depend>
   <export>
     <gazebo_ros
       plugin_path="${prefix}/lib"
